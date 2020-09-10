@@ -1,1 +1,270 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Siap Ngoding</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="author" content="Mahfud Efendi" />
+        <meta name="description" content="Tugas Proyek Tim Front-End " />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+        <!-- Untuk memanggil CSS External -->
+        <link href="assets/css/mexstyle.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+        <header id="header">
+            <nav class="mex-container bg-header">
+                <div class="mex-navbar"  id="topnav">
+                    <img src="assets/images/logo.png" class="mex-navbar-image" alt="logo Siap Ngoding" />
+                    <div  class="iconToggler" onclick="toggleMenu()">
+                        <img src="assets/images/icon_menu.png" alt="iconmenu" />
+                        <a href="javascript:void(0);">Menu</a>
+                    </div>
+                    <ul class="mex-fr" id="navMenu">
+                        <li class="mex-nav-item current"><a onclick="toggleMenu()" href="#beranda">Beranda</a></li>
+                        <li class="mex-nav-item"><a onclick="toggleMenu()" href="#tentang_kami">Tentang Kami</a></li>
+                        <li class="mex-nav-item"><a onclick="toggleMenu()" href="#layanan">Informasi Layanan</a></li>
+                        <li class="mex-nav-item"><a onclick="toggleMenu()" href="#tim">Tim Pengembang</a></li>
+                        <li class="mex-nav-item"><a onclick="toggleMenu()" href="#kontak">Kontak</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article id="beranda">
+                <div class="bg-header" style="padding:20px 0;">
+                    <img src="assets/images/cover.jpg" alt="Cover" class="mex-jumbotron mex-image-fluid" />
+                </div>
+            </article>
+            <article id="tentang_kami">
+                <div class="mex-container bg-tentang">
+                    <div class="mex-row mex-pdy">
+                        <div class="mex-col-7">
+                            <img src="assets/images/Ngoding.jpg" alt="tentang kami" class="mex-image mex-image-fluid" />
+                        </div>
+                        <div class="mex-col-5">
+                            <h1 class="mex-text-putih mex-text-title">Tentang Kami</h1>
+                            <p class="mex-text-putih">
+                                Komitmen kami menjadi salah satu start-up yang unggul di bidang Industri Kreatif IT merupakan semangat tiada henti.
+                                Merujuk ke Motto kami "Membangun negeri dengan teknologi" maka inovasi & aplikasi karya kami berbasiskan teknologi terbaru yang mendukung Revolusi Industri 4.0.
+                                Kenyamanan dan kemudahan dalam penggunaan aplikasi menjadi target utama kami serta transaksi dan keamanan data menjadi prioritas klien kami.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="layanan">
+                <div class="mex-container bg-layanan">
+                    <div class="mex-row mex-pdy">
+                        <div class="mex-col-12">
+                            <h1 class="mex-text-putih mex-text-title mex-text-center">Layanan Kami</h1>
+                            <p class="mex-text-putih mex-text-subtitle">Produk dan layanan kami mengacu pada teknologi terbaru dan perkembangan zaman sesuai dengan revolusi industri 4.0</p>
+                        </div>
+                        <div class="mex-col-4">
+                            <div class="mex-layanan-container mex-image">
+                                <div class="mex-layanan-header">
+                                    <img src="assets/images/html.jpg" alt="web apps" />
+                                    <h3 class="mex-layanan-title">Web Application</h3>
+                                </div>
+                                <div class="mex-layanan-content">
+                                    <p>Kami telah lama bergelut dengan dunia internet, sehingga telah lama pula kami bermain dan berinovasi dengan teknologi web.
+                                    HTML5 yang merupakan teknologi terbaru dari web sangat kami pelajari secara mendalam untuk menghasilkan aplikasi berbasis web yang powerfull, menarik dan cepat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mex-col-4">
+                            <div class="mex-layanan-container mex-image">
+                                <div class="mex-layanan-header">
+                                    <img src="assets/images/android.jpg" alt="android apps" />
+                                    <h3 class="mex-layanan-title">Android Application</h3>
+                                </div>
+                                <div class="mex-layanan-content">
+                                    <p>
+                                    Pada era Revolusi Industri 4.0, perkembangan gadget semakin pesat khususnya bagi ponsel pintar alias smartphone.
+                                     Android banyak sekali digandrungi oleh pengguna smartphone saat ini.
+                                     Untuk mengimbangi permintaan pengguna smartphone maka kami melayani pengembangan aplikasi yang berbasis Android.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mex-col-4">
+                            <div class="mex-layanan-container mex-image">
+                                <div class="mex-layanan-header">
+                                    <img src="assets/images/iot.jpg" alt="web apps" />
+                                    <h3 class="mex-layanan-title">Internet of Things (IoT)</h3>
+                                </div>
+                                <div class="mex-layanan-content">
+                                    <p>
+                                        Internet semakin pesat dan hampir semua perangkat bisa terhubung dengan internet. IoT merupakan sebuah cara pikir baru pada masa RI 4.0 untuk
+                                        mempermudah dan efisensi waktu dalam melakukan pekerjaan. Kami memberikan pelayanan kepada klien dengan pengembangan Internet of Things (IoT)
+                                        semakin dimudahkan dengan adanya teknologi internet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="tim">
+                <div class="mex-container bg-tim mex-pdy">
+                    <div class="mex-col-12">
+                        <h1 class="mex-text-putih mex-text-title mex-text-center">Tim Pengembang</h1>
+                        <p class="mex-text-putih mex-text-subtitle mex-text-center">Dalam pengembangan sebuah aplikasi, tim kami memiliki kemampuan dan tugas khusus seperti berikut</p>
+                    </div>
+                    <div class="mex-row mex-pd-2">
+                        <div class="mex-col-12 bgdrop-tim">
+                            <div class="mex-row mex-pd-2">
+                                <div class="mex-col-3">
+                                    <div class="mex-card mex-text-center">
+                                        <img src="assets/images/mahfud.jpg" alt="tim frontend" class="img-rounded" />
+                                        <h4 class="mex-text-title-rounded">Mahfud Efendi</h4>
+                                        <p>Leader Software Development Department</p>
+                                        <div class="mex-medsos">
+                                            <a target="_blank" href="https://www.youtube.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/youtube-icon.png" alt="medsos youtube" /></a>
+                                            <a target="_blank" href="https://www.facebook.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/facebook-icon.png" alt="medsos facebook" /></a>
+                                            <a target="_blank" href="https://www.instagram.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/instagram-icon.png" alt="medsos instagram" /></a>
+                                            <a target="_blank" href="https://www.twitter.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/twitter-2-icon.png" alt="medsos twitter" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/linkedin-icon.png" alt="medsos linkedin" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mex-col-3">
+                                    <div class="mex-card mex-text-center">
+                                        <img src="assets/images/kahifil.jpg" alt="tim frontend" class="img-rounded" />
+                                        <h4 class="mex-text-title-rounded">Khaifil</h4>
+                                        <p>System Analyst & Design Graphic Department</p>
+                                        <div class="mex-medsos">
+                                            <a target="_blank" href="https://www.youtube.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/youtube-icon.png" alt="medsos youtube" /></a>
+                                            <a target="_blank" href="https://www.facebook.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/facebook-icon.png" alt="medsos facebook" /></a>
+                                            <a target="_blank" href="https://www.instagram.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/instagram-icon.png" alt="medsos instagram" /></a>
+                                            <a target="_blank" href="https://www.twitter.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/twitter-2-icon.png" alt="medsos twitter" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/linkedin-icon.png" alt="medsos linkedin" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mex-col-3">
+                                    <div class="mex-card mex-text-center">
+                                        <img src="assets/images/riadi.jpg" alt="tim frontend" class="img-rounded" />
+                                        <h4 class="mex-text-title-rounded">Riadi</h4>
+                                        <p>Front-End & Back-End Management Department</p>
+                                        <div class="mex-medsos">
+                                            <a target="_blank" href="https://www.youtube.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/youtube-icon.png" alt="medsos youtube" /></a>
+                                            <a target="_blank" href="https://www.facebook.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/facebook-icon.png" alt="medsos facebook" /></a>
+                                            <a target="_blank" href="https://www.instagram.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/instagram-icon.png" alt="medsos instagram" /></a>
+                                            <a target="_blank" href="https://www.twitter.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/twitter-2-icon.png" alt="medsos twitter" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/linkedin-icon.png" alt="medsos linkedin" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mex-col-3">
+                                    <div class="mex-card mex-text-center">
+                                        <img src="assets/images/no_image_available.png" alt="tim frontend" class="img-rounded" />
+                                        <h4 class="mex-text-title-rounded">Muhammad Syarif Ali</h4>
+                                        <p>UI/UX Concept and Android Department</p>
+                                        <div class="mex-medsos">
+                                            <a target="_blank" href="https://www.youtube.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/youtube-icon.png" alt="medsos youtube" /></a>
+                                            <a target="_blank" href="https://www.facebook.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/facebook-icon.png" alt="medsos facebook" /></a>
+                                            <a target="_blank" href="https://www.instagram.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/instagram-icon.png" alt="medsos instagram" /></a>
+                                            <a target="_blank" href="https://www.twitter.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/twitter-2-icon.png" alt="medsos twitter" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/" class="mex-medsos-link"><img src="assets/images/medsos-icon/linkedin-icon.png" alt="medsos linkedin" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="kontak">
+                <div class="mex-container bg-kontak mex-pdy">
+                    <div class="mex-col-12 mex-text-center">
+                        <h1 class="mex-text-putih mex-text-title">Kontak</h1>
+                        <p class="mex-text-putih mex-text-subtitle">Apabila anda tertarik dan membutuhkan bantuan kami, segera hubungi kami melalui form kontak atau alamat dan nomer telpon yang kami sediakan dibawah.</p>
+                    </div>
+                    <div class="mex-row mex-pd-2">
+                        <div class="mex-col-5">
+                            <div class="mex-form-group">
+                                <form class="form_kontak" name="form_kontak" method="post" action="#">
+                                    <div class="mex-row mex-form-control">
+                                        <div class="mex-col-3">
+                                            <label for="name">Name *</label>
+                                        </div>
+                                        <div class="mex-col-9">
+                                            <input type="text" name="name" id="name" placeholder="ex. Mahfud Efendi" required />
+                                        </div>
+                                    </div>
+                                    <div class="mex-row  mex-form-control">
+                                        <div class="mex-col-3">
+                                            <label for="email">Email *</label>
+                                        </div>
+                                        <div class="mex-col-9">
+                                            <input type="email" name="email" id="email" placeholder="ex. mahfud.efendi@yahoo.com" required />
+                                        </div>
+                                    </div>
+                                    <div class="mex-row  mex-form-control">
+                                        <div class="mex-col-3">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                        <div class="mex-col-9">
+                                            <input type="text" name="subject" id="subject" placeholder="ex. Bertanya tentang..."  />
+                                        </div>
+                                    </div>
+                                    <div class="mex-row  mex-form-control">
+                                        <div class="mex-col-3">
+                                            <label for="message">Message</label>
+                                        </div>
+                                        <div class="mex-col-9">
+                                            <textarea name="message" id="message" rows="2" placeholder="Please write your message here.."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="mex-row  mex-form-control">
+                                        <div class="mex-col-3">
+                                            <label for="name"></label>
+                                        </div>
+                                        <div class="mex-col-9">
+                                            <button type="button" name="submit" id="submit"> Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="mex-col-7">
+                            <div class="mex-form-group">
+                                <p><strong>Alamat:</strong><br/><span class="">Perumahan Sempu Mulia Residance Kav.26 Desa Gading Kulon Kecamatan Dau, Kabupaten Malang - Jawa Timur</span></p>
+                                <div class="mex-embed">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63222.927661128204!2d112.4986856997852!3d-7.954128076323837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63c4a308cc749096!2sSempu%20Mulia%20Residence!5e0!3m2!1sen!2sid!4v1596803528598!5m2!1sen!2sid" width="750" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside id="biodata">
+                <marquee direction="left" style="font-size:24pt;color:#fff;font-weight:600; line-height:60px;">"Jengan pernah menyerah untuk mencapai tujuan yang lebih baik. Kejar cita-cita setinggi langit...."</marquee>
+            </aside>
+        </main>
+        <footer class="footer">
+            <div class="scrollTotop" id="scrollTop" onclick="topFunction()">
+                <img src="assets/images/top.png" width="30px" alt="scrolltop" />
+            </div>
+            Tugas Proyek Tim FE-C03 @ 2020
+            <ul class="mex-menu-footer">
+                <li class="mex-menu-item"><a href="#beranda">Beranda</a></li>
+                <li class="mex-menu-item"><a href="#tentang_kami">Tentang Kami</a></li>
+                <li class="mex-menu-item"><a href="#layanan">Informasi Layanan</a></li>
+                <li class="mex-menu-item"><a href="#tim">Tim Pengembang</a></li>
+                <li class="mex-menu-item"><a href="#kontak">Kontak</a></li>
+            </ul>
+        </footer>
+    </body>
+    <!-- Berfungsi untuk memanggil Javascript External -->
+    <script src="assets/js/mexscript.js" type="text/javascript" ></script>
+</html>
